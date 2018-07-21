@@ -9,69 +9,87 @@ The project is called {{ site.github.rdbms }}
 
 
 <html lang="en">
+
+
 <head>
-    
- <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
-<script type="text/javascript" src="page.js"></script>
-
-  
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-  </head>
-<body>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
- <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith2.jpg" alt="New York" width="700" height="300">
-        <div class="carousel-caption">
-          <h3>Question Bank On Data Structures</h3>
-          <p></p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith3.jpg" alt="Chicago" width="700" height="300">
-        <div class="carousel-caption">
-              <h3>Question Bank On Data Structures</h3>  
-        </div>
-      </div>
-      <div class="item">
-        <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith4.jpg" alt="Los Angeles" width="700" height="300">
-        <div class="carousel-caption">
-              <h3>Question Bank On Data Structures</h3>
-        </div>
-      </div>
-    </div>
-        <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-</ul>
-</div>
-</div>   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css2/themify-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <!-- Main css -->
+    <link href="css2/style.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
+    <div class="section light-bg" id="features">
+ <div class="container">
+  <div class="section-title">
+              <h3>Question Bank</h3>
+            </div>
+  <div class="row">
+       <div class="col-sm-12 col-sm-4">
+                   <a href="http://educart.xyz/questionReveal/ds.php" style="text-decoration:none;">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-file gradient-fill ti-2x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Data Structures</h4>
+                                    <p class="card-text">is a data organization and storage format that enables efficient access and modification</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+          <div class="col-sm-12 col-sm-4">
+                 <a href="http://educart.xyz/questionReveal/algorithm.php" style="text-decoration:none;">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-list gradient-fill ti-2x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Algorithm</h4>
+                                    <p class="card-text">is an unambiguous specification or step by step procedure to solve a class of problems      </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                </div>
+         <div class="col-sm-12 col-sm-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-desktop gradient-fill ti-2x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Operating System</h4>
+                            <p class="card-text">is system software that manages computer h/w and s/w resources</p>
+                                    <small>Coming soon</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   </div>
+ </div>
+    <script src="js2/jquery-3.2.1.min.js"></script>
+    <script src="js2/bootstrap.bundle.min.js"></script>
+    <script src="js2/owl.carousel.min.js"></script>
+    <script src="js2/script.js"></script>
 </body>
 </html>
+
 
   
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
