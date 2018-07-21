@@ -28,7 +28,6 @@ The project is called {{ site.github.rdbms }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
   </head>
 <body>
-    
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -36,8 +35,7 @@ The project is called {{ site.github.rdbms }}
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-
-    <!-- Wrapper for slides -->
+ <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith2.jpg" alt="New York" width="700" height="300">
@@ -46,15 +44,12 @@ The project is called {{ site.github.rdbms }}
           <p></p>
         </div>
       </div>
-
       <div class="item">
         <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith3.jpg" alt="Chicago" width="700" height="300">
         <div class="carousel-caption">
-              <h3>Question Bank On Data Structures</h3>
-         
+              <h3>Question Bank On Data Structures</h3>  
         </div>
       </div>
-
       <div class="item">
         <img class="img-responsive center-block" src="http://educart.xyz/questionReveal/images/ankith4.jpg" alt="Los Angeles" width="700" height="300">
         <div class="carousel-caption">
@@ -62,8 +57,7 @@ The project is called {{ site.github.rdbms }}
         </div>
       </div>
     </div>
-
-    <!-- Left and right controls -->
+        <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -73,33 +67,9 @@ The project is called {{ site.github.rdbms }}
       <span class="sr-only">Next</span>
     </a>
 </div>
-    
- 
-<div class="container">
-<?php
-include "conn.php";
-$per_page = 10;
-//Calculating no of pages
-$sql="SELECT Id,Chap,Question,Code,Answer,Explanation FROM questionReveal";
-$result = mysqli_query($conn, $sql);
-$count = mysqli_num_rows($result);
-$pages = ceil($count/$per_page)
-?>
-<div id="content"></div>
-<div id="pagination">
-<ul class="pagination">
-<?php
-//Pagination Numbers
-for($i=1; $i<=$pages; $i++)
-{
-echo '<li id="'.$i.'">'.$i.'</li>';
-}
-?>
 </ul>
 </div>
 </div>   
-
- 
 </body>
 </html>
 
