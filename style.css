@@ -61,19 +61,20 @@ body {
 
 .typewriter {
   font-family: monospace;
+
 }
 
 .typewriter p {
   display: inline-block;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange;
+  border-right: .10em solid orange;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em;
+  letter-spacing: .20em;
   /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
@@ -158,6 +159,9 @@ body {
   }
   .keyword .datatype .declaration .name{
     font-size: 9px;
+  }
+  .comment {
+    font-size: 7px;
   }
 }
 
