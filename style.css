@@ -61,6 +61,7 @@ body {
 
 .typewriter {
   font-family: monospace;
+  margin: 0 0 0 30px;
 }
 
 .typewriter p {
@@ -73,7 +74,7 @@ body {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .20em;
+  letter-spacing: .10em;
   /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
@@ -105,6 +106,9 @@ body {
   margin: 1em 1em 1em 1em;
 }
 
+.card p {
+  font-size: 14px;
+}
 /* Style all font awesome icons */
 
 .fab {
@@ -153,4 +157,12 @@ body {
     width: auto;
     margin: 1em 1em 1em 1em;
   }
+  .keyword .datatype .declaration .name{
+    font-size: 9px;
+  }
+}
+
+img {
+  height: 180px;
+
 }

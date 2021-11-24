@@ -2,17 +2,19 @@
 <html lang="en" dir="ltr">
 
 <head>
-  
- 
+
+
   <meta charset="utf-8">
   <meta name="description" content="Cam Barts Portfolio">
   <meta name="google-site-verification" content="g7JYrHRszG4QkQHIfJsKZl6K1p84rL7ePbB7X6jIL1o" />
   <meta name="keywords" content="Cam,Barts,Programming,Python,HTML,CSS,Portfolio">
   <meta name="author" content="Cam Barts">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Hi, I am Ankith. I like building stuff with code." />
+  <meta prefix="og: http://ogp.me/ns#" property="og:title"
+    content="Hi, I am Ankith. I like building stuff with code." />
   <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
-  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Check out some of my favorite things that I have built" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description"
+    content="Check out some of my favorite things that I have built" />
   <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://cam-barts.github.io/banner.webp" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@cam_barts" />
@@ -23,11 +25,18 @@
   <link rel="KoS Icon" type="image/x-icon" href="https://cam-barts.github.io/KoSlogo_tiny.ico" />
   <title>Ankith</title>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
@@ -39,11 +48,11 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135550382-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-135550382-1');
-</script>
+    gtag('config', 'UA-135550382-1');
+  </script>
 
 
   <nav class="navbar navbar-expand-sm navbar-dark darknav" id="navbar">
@@ -56,168 +65,176 @@
 
   <section class="jumbotron jumbotron-fluid darcula" id="welcome-section">
     <div class="typewriter">
-      <h1><span class="keyword">def</span> <span class="declaration">greet</span>(): -> <span class="datatype">str</span><br> &nbsp;&nbsp;&nbsp;&nbsp;
-        <span class="keyword">return </span>"Hi, I'm Ankith"</h1>
-      <p class="lead comment"># I like building stuff with code</p>
+      <h1><span class="keyword">def</span> <span class="declaration">greet</span>(): -> <span
+          class="datatype">str</span><br> 
+        <span class="keyword">return </span><span class="name">"Hi, I'm Ankith Bala"</span></h1>
+      <p class="lead comment"># I like building stuff with code..............</p>
     </div>
   </section>
 
   <section id="projects">
     <div class="container">
-<!--
-      <section id="css">
-        <h2>CSS/Bootstrap</h2>
-        <div class="container">
-          <div class="row">
-            <div class="card">
-              <img src='.' data-srcset="https://res.cloudinary.com/cam-barts/image/upload/v1551650416/Screenshot_2019-03-03_16.59.22.png" class="lazy card-img-top" alt="Dunks By Shade">
-              <div class="card-body">
-                <h5 class="card-title project-tile">Dunks By Shade</h5>
-                <p class="card-text">This was a fun project that was intended to be a Product Landing Page, but became a shameless plug for my Overwatch.</p>
-                <a href="https://codepen.io/cam-barts/full/vPEPzO" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src='.' data-srcset="https://res.cloudinary.com/cam-barts/image/upload/v1551719295/Screenshot_2019-03-03_17.23.12.webp" class="lazy card-img-top" alt="Grace Tribute">
-              <div class="card-body">
-                <h5 class="card-title">Grace Tribute</h5>
-                <p class="card-text"><span class="text-danger">(Work In Progress)</span><br>This is a tribute page to my daughter. I started when she was just born and I was pretty tired, hence the styling.</p>
-                <a href="https://codepen.io/cam-barts/full/REOvOW" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src='.' data-srcset="https://res.cloudinary.com/cam-barts/image/upload/v1551655658/Screenshot_2019-03-03_18.26.40.png" class="lazy card-img-top" alt="Python Tech Doc">
-              <div class="card-body">
-                <h5 class="card-title">Python 3.6+ Technical Documentation</h5>
-                <p class="card-text">A page in the form of Technical Documentation with examples of my favorite features from python 3.6 and 3.7. </p>
-                <a href="https://codepen.io/cam-barts/full/RdrogZ" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src='.' data-srcset="https://res.cloudinary.com/cam-barts/image/upload/v1551657781/Screenshot_2019-03-03_19.02.18.png" class="lazy card-img-top" alt="Survey Form">
-              <div class="card-body">
-                <h5 class="card-title">Survey Form</h5>
-                <p class="card-text">A simple, mobile friendly survey form. It's functional, so I encourage you to fill it out!</p>
-                <a href="https://codepen.io/cam-barts/full/WPwLLV" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
--->
-<br>
- <br>
-     
-      
-      <section id="python">
-        <h2>Python</h2>
-        <div class="container">
-          <div class="row">
-      <!--
-            <div class="card">
-              <img src='.' data-srcset="https://res.cloudinary.com/cam-barts/image/upload/v1551661450/Screenshot_2019-03-03_20.03.18.png" class="lazy card-img-top" alt="Github Screenshot">
-              <div class="card-body">
-                <h5 class="card-title">To Do List</h5>
-                <p class="card-text"><span class="text-success">(Pet Project)</span><span class="text-danger">(Currently Broken)</span><br>A project that started as me following "Test Driven Development with Python" by Harry Percival turned into me
-                  learning docker, travis,
-                  azure app service, pyup, pre-commit and more. </p>
-                <a href="https://github.com/cam-barts/ObeyTheTestingGoat" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
 
--->
+      <br>
+      <section id="ml">
+        <h4>Machine Learning</h4>
+        <div class="container">
+          <div class="row">
 
             <div class="card">
               <img src='.' data-srcset="Capture3.JPG" class="lazy card-img-top" alt="Github Screenshot">
               <div class="card-body">
                 <h5 class="card-title">Music Genre Recognition</h5>
-                <p class="card-text"> Developed this project using Deep Neural Network with Keras API. This tool is capable of predicting the genre of any music by analyzing its spectrogram and then training the Keras model built using these spectrograms. Flask web framework is used to create an endpoint to this model.
+                <p class="card-text"> Developed this project using Deep Neural Network with Keras API. This tool is
+                  capable of predicting the genre of any music by analyzing its spectrogram and then training the Keras
+                  model built using these spectrograms. Flask web framework is used to create an endpoint to this model.
                 </p>
                 <a href="https://github.com/ankithbala/MGR" class="btn btn-primary">Check It Out</a>
               </div>
             </div>
             <div class="card">
-              <img src='.' data-srcset="Capture4.JPG" class="lazy card-img-top" alt="Github Screenshot">
+              <img src='.' data-srcset="Capture13.jpg" class="lazy card-img-top" alt="Github Screenshot">
               <div class="card-body">
-                <h5 class="card-title">Y-Link, a Youtube Video Downloader</h5>
-                <p class="card-text">A python course project where I developed a Django application which downloads youtube videos when a user provides youtube link.<a href="http://ylink.pythonanywhere.com">(Project demo)</a></p>
-                <a href="https://github.com/ankithbala/ylink" class="btn btn-primary">Check It Out</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      
-    <br>  
-        <section id="Android App">
-        <h2>Android App</h2>
-        <div class="container">
-          <div class="row">
- 
-
-            <div class="card">
-              <img src='.' data-srcset="Capture12.JPG" class="lazy card-img-top" alt="Github Screenshot">
-              <div class="card-body">
-                <h5 class="card-title">EduCart 2.0</h5>
-                <p class="card-text">
-                  An android app called EduCart 2.0 which is a portal for students to prepare for technical interview from course notes and question bank provided in the app and take up mock tests. Total number of downloads in Google playstore is 1720.
+                <h5 class="card-title">Research Internship at IIT</h5>
+                <p class="card-text">Worked on the problem of activity recognition from the videos using a Long-Term Recurrent Convolutional network (LRCN) and Capsule network (CapsNet).  
+                  Proposed a new model called Long-Term Recurrent Convolutional network and Capsule network for activity recognition (LRCaps).
                 </p>
-                <a href="https://github.com/ankithbala/EduCartTwo" class="btn btn-primary">Check It Out</a>
+              
               </div>
             </div>
-     
           </div>
         </div>
       </section>
-      
-      
-      
-      
       <br>
 
-      
-      
+
+
       <section id="Blockchain">
-        <h2>Blockchain</h2>
+        <h4>Blockchain</h4>
         <div class="container">
           <div class="row">
- 
-
+      
+      
             <div class="card">
               <img src='.' data-srcset="Capture5.JPG" class="lazy card-img-top" alt="Github Screenshot">
               <div class="card-body">
                 <h5 class="card-title">Blockchain Hackathon</h5>
                 <p class="card-text">
-                  Participated in 48 hour Hackathon team event organized by Govt of Karnataka, where we developed the solution to challenge a problem called Real-time record maintenance using Blockchain.
+                  Participated in 48 hour Hackathon team event organized by Govt of Karnataka, where we developed the
+                  solution to challenge a problem called Real-time record maintenance using Blockchain.
                 </p>
                 <a href="https://github.com/ankithbala/blockchain" class="btn btn-primary">Check It Out</a>
               </div>
             </div>
-     
+      
+            <div class="card">
+              <img src='.' data-srcset="Capture14.png" class="lazy card-img-top" alt="Github Screenshot">
+              <div class="card-body">
+                <h5 class="card-title">MaaS (Mobility as a Service)</h5>
+                <p class="card-text">
+                  A challenge program proposed by the Netherlands Ministry of infra and water management. 
+                  Developed a high-speed processing blockchain common DB for MaaS, a next-generation mobility service that integrates multiple transportation entities.
+                  
+                </p>
+                <a href="https://www.sony.com/en/SonyInfo/News/Press/202004/20-030E/" class="btn btn-primary">Sony Press release</a>
+              </div>
+            </div>
+      
+
+      <div class="card">
+        <img src='.' data-srcset="Capture15.png" class="lazy card-img-top" alt="Github Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Enigma</h5>
+          <p class="card-text">A tool capable of measuring the performance and productivity of employees which also safeguards their privacy with the help of blockchain technology. Hyperledger Fabric framework is used to develop a blockchain network.
+
+        </div>
+      </div>
+
           </div>
         </div>
       </section>
-      
-      
-      
 <br>
- <br>
+<section id="python">
+  <h4>Python</h4>
+  <div class="container">
+    <div class="row">
+<!--
+      <div class="card">
+        <img src='.' data-srcset="Capture3.JPG" class="lazy card-img-top" alt="Github Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Music Genre Recognition</h5>
+          <p class="card-text"> Developed this project using Deep Neural Network with Keras API. This tool is
+            capable of predicting the genre of any music by analyzing its spectrogram and then training the Keras
+            model built using these spectrograms. Flask web framework is used to create an endpoint to this model.
+          </p>
+          <a href="https://github.com/ankithbala/MGR" class="btn btn-primary">Check It Out</a>
+        </div>
+      </div>
+    -->
+      <div class="card">
+        <img src='.' data-srcset="Capture4.JPG" class="lazy card-img-top" alt="Github Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Y-Link, a Youtube Video Downloader</h5>
+          <p class="card-text">A python course project where I developed a Django application which downloads
+            youtube videos when a user provides youtube link.<a href="http://ylink.pythonanywhere.com">(Project
+              demo)</a></p>
+          <a href="https://github.com/ankithbala/ylink" class="btn btn-primary">Check It Out</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
       <br>
- <br>
-     
-     
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact">
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="ankithb"><a class="LI-simple-link" href='https://in.linkedin.com/in/ankithb?trk=profile-badge'>Ankith Bala</a></div>
-      
-    <!--
+      <section id="Android App">
+        <h4>Android App</h4>
+        <div class="container">
+          <div class="row">
+
+
+            <div class="card">
+              <img src='.' data-srcset="Capture12.JPG" class="lazy card-img-top" style="width: 250px;object-fit: cover;" alt="Github Screenshot">
+              <div class="card-body">
+                <h5 class="card-title">EduCart 2.0</h5>
+                <p class="card-text">
+                  An android app called EduCart 2.0 which is a portal for students to prepare for technical interview
+                  from course notes and question bank provided in the app and take up mock tests. Total number of
+                  downloads in Google playstore is 1720.
+                </p>
+                <a href="https://github.com/ankithbala/EduCartTwo" class="btn btn-primary">Check It Out</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact">
+          <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal"
+            data-theme="light" data-vanity="ankithb"><a class="LI-simple-link"
+              href='https://in.linkedin.com/in/ankithb?trk=profile-badge'>Ankith Bala</a></div>
+
+          <!--
       <div><a href="https://github.com/ankithbala" class="fab fa-github" target="_blank" rel="noopener">Github</a></div>
 
 -->
-    </div>
-  </section>
+        </div>
+      </section>
 </body>
 
 </html>
