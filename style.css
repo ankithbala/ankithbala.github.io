@@ -61,7 +61,7 @@ body {
 
 .typewriter {
   font-family: monospace;
-
+margin : 0 0 0 15px;
 }
 
 .typewriter p {
@@ -175,10 +175,13 @@ img {
   [class*="col-"] {
     width: 100%;
   }
-  .keyword .datatype .declaration .name{
-    font-size: 8px;
-  }
+
   .comment {
     font-size: 6px;
   }
+}
+
+
+.comment {
+  font-size: 12px;
 }
