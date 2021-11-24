@@ -183,8 +183,8 @@ img {
 }
 
 .comment {
-  font-size: 4px;
-  color: green;
+  font-size: 3px;
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -198,6 +198,10 @@ img {
     font-size: 40px;
   }
 
+  .typewriter {
+    font-family: monospace;
+  margin : 0 0 0 15px;
+  }
 
   .typewriter p {
     display: inline-block;
