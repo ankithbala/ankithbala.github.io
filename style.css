@@ -74,7 +74,7 @@ margin : 0 0 0 6px;
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
+  letter-spacing: .14em;
   /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
@@ -157,12 +157,7 @@ margin : 0 0 0 6px;
     width: auto;
     margin: 1em 1em 1em 1em;
   }
-  .keyword .datatype .declaration .name{
-    font-size: 8px;
-  }
-  .comment {
-    font-size: 6px;
-  }
+
 }
 
 img {
@@ -178,7 +173,7 @@ img {
 
   .comment {
     font-size: 4px;
-    color: red;
+  
   }
 
   .main {
@@ -187,7 +182,24 @@ img {
 
 }
 
-
 .comment {
-  font-size: 12px;
+  font-size: 8px;
+  color: yellow;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .comment {
+    font-size: 22px;
+    color: white;
+  }
+
+  .main {
+    font-size: 40px;
+  }
+
+
+
+} 
+
+
