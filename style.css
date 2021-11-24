@@ -177,8 +177,13 @@ img {
   }
 
   .comment {
-    font-size: 6px;
+    font-size: 4px;
   }
+
+  .main {
+    font-size: 20px;
+  }
+
 }
 
 
