@@ -74,7 +74,7 @@ margin : 0 0 0 15px;
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .20em;
+  letter-spacing: .15em;
   /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
@@ -178,6 +178,7 @@ img {
 
   .comment {
     font-size: 4px;
+    color: red;
   }
 
   .main {
