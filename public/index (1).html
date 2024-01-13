@@ -25,7 +25,77 @@
   <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
   <style media="screen">
-    
+    body {
+      background: #ECEFF1;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #message {
+      background: white;
+      max-width: 360px;
+      margin: 100px auto 16px;
+      padding: 32px 24px;
+      border-radius: 3px;
+    }
+
+    #message h2 {
+      color: #ffa100;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 0 8px;
+    }
+
+    #message h1 {
+      font-size: 22px;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 0 16px;
+    }
+
+    #message p {
+      line-height: 140%;
+      margin: 16px 0 24px;
+      font-size: 14px;
+    }
+
+    #message a {
+      display: block;
+      text-align: center;
+      background: #039be5;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      padding: 16px;
+      border-radius: 4px;
+    }
+
+    #message,
+    #message a {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    #load {
+      color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+
+      body,
+      #message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+      }
+
+      body {
+        border-top: 16px solid #ffa100;
+      }
+    }
   </style>
 
 
@@ -45,18 +115,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./static/css/style.css">
-
 </head>
 
 <body>
 
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./static/css/style.css">
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./static/js/script.js"></script>
@@ -77,7 +145,7 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4 col-12">
+        <div class="col">
 
           <div class="typewriter">
             <h5 class="main"><span class="keyword">def</span> <span class="declaration">greet</span>(): -> <span
@@ -88,8 +156,12 @@
           </div>
 
         </div>
+
+
+
+
        
-<!--
+
         <div class="col">
           <div class="css-4jgnl2 timeline">
 
@@ -259,51 +331,6 @@
                   </style>
 
 
-                  <p class="chakra-text css-1yxrjky">2022</p>
-                  <style data-emotion="css m190yg">
-                    .css-m190yg {
-                      display: -webkit-box;
-                      display: -webkit-flex;
-                      display: -ms-flexbox;
-                      display: flex;
-                      border-left-color: #EDF2F7;
-                      border-left-width: 2px;
-                      width: 100%;
-                    }
-                  </style>
-                  <div class="css-m190yg">
-                    <div class="css-5bjx0a"></div>
-                    <div class="css-1xfr2mj">
-                      <div align="center" class="css-1qo4u0g"><img class="chakra-image__placeholder css-1f5ave3"
-                          src="./ub-logo.png" /></div>
-                      <div class="css-qs4ifh">
-                        <p class="chakra-text css-1u8zspk">Master's in Computer Science and Engineering</p>
-                        <p class="chakra-text css-1fb0br2">University at Buffalo, The State University of New York </p>
-                        <div class="css-0">
-                          <p class="chakra-text css-aean9g"><span class="chakra-text css-1e9h9qn">
-                            Explored on Machine Learning, Deep learning, Distributed Systems, Algorithms, Blockchain, App Development.
-                            </span></p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-
-
-                
-                <div class="css-k008qs">
-                  <style data-emotion="css 1yxrjky">
-                    .css-1yxrjky {
-                      color: #A0AEC0;
-                      width: 50px;
-                      margin-top: 0.5rem;
-                    }
-                  </style>
-
-
                   <p class="chakra-text css-1yxrjky">2019</p>
                   <style data-emotion="css m190yg">
                     .css-m190yg {
@@ -335,54 +362,6 @@
                   </div>
 
                 </div>
-
-
-
-
-                
-                <div class="css-k008qs">
-                  <style data-emotion="css 1yxrjky">
-                    .css-1yxrjky {
-                      color: #A0AEC0;
-                      width: 50px;
-                      margin-top: 0.5rem;
-                    }
-                  </style>
-
-
-                  <p class="chakra-text css-1yxrjky">2019</p>
-                  <style data-emotion="css m190yg">
-                    .css-m190yg {
-                      display: -webkit-box;
-                      display: -webkit-flex;
-                      display: -ms-flexbox;
-                      display: flex;
-                      border-left-color: #EDF2F7;
-                      border-left-width: 2px;
-                      width: 100%;
-                    }
-                  </style>
-                  <div class="css-m190yg">
-                    <div class="css-5bjx0a"></div>
-                    <div class="css-1xfr2mj">
-                      <div align="center" class="css-1qo4u0g"><img class="chakra-image__placeholder css-1f5ave3"
-                          src="./logo.png" /></div>
-                      <div class="css-qs4ifh">
-                        <p class="chakra-text css-1u8zspk">Senior Software Engineer</p>
-                        <p class="chakra-text css-1fb0br2">Sony India Software Centre, Bengaluru</p>
-                        <div class="css-0">
-                          <p class="chakra-text css-aean9g"><span class="chakra-text css-1e9h9qn">
-                              DIGI-BOT- a chatbot application used in Sony support sites.
-                            </span></p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                
 
                 <div class="css-k008qs">
                   <p class="chakra-text css-1yxrjky">2020 May</p>
@@ -404,8 +383,117 @@
                     </div>
                   </div>
                 </div>
-
-      
+                <!--
+            <div class="css-k008qs">
+                <p class="chakra-text css-1yxrjky">2019 Aug</p>
+                <div class="css-m190yg">
+                    <div class="css-5bjx0a"></div>
+                    <div class="css-1xfr2mj">
+                        <div align="center" class="css-1qo4u0g"><img
+                                class="chakra-image__placeholder css-1f5ave3" /></div>
+                        <div class="css-qs4ifh">
+                            <p class="chakra-text css-1u8zspk">Master’s in Artificial Intelligence</p>
+                            <p class="chakra-text css-1fb0br2">University of Cincinnati</p>
+                            <div class="css-0">
+                                <p class="chakra-text css-aean9g"><span
+                                        class="chakra-text css-1e9h9qn">Specializations: </span><em
+                                        class="chakra-text css-1e9h9qn"><span
+                                            class="chakra-text css-1e9h9qn">Computer Vision, NLP, Reinforcement
+                                            Learning and Complex Intelligent Systems</span></em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          -->
+                <!--
+            <div class="css-k008qs">
+                <p class="chakra-text css-1yxrjky">2018</p>
+                <div class="css-m190yg">
+                    <div class="css-5bjx0a"></div>
+                    <div class="css-1xfr2mj">
+                        <div align="center" class="css-1qo4u0g"><img
+                                class="chakra-image__placeholder css-1f5ave3" /></div>
+                        <div class="css-qs4ifh">
+                            <p class="chakra-text css-1u8zspk">Full-Stack Engineer</p>
+                            <p class="chakra-text css-1fb0br2">Aviso AI</p>
+                            <div class="css-0">
+                                <p class="chakra-text css-aean9g"><span class="chakra-text css-1e9h9qn">Reduced
+                                        the ML cloud cost by </span><strong><span
+                                            class="chakra-text css-1e9h9qn">60%</span></strong><span
+                                        class="chakra-text css-1e9h9qn"> </span><br /><span
+                                        class="chakra-text css-1e9h9qn">Technologies used: </span><em
+                                        class="chakra-text css-1e9h9qn"><span
+                                            class="chakra-text css-1e9h9qn">Django, Kubernetes, AWS, Linux,
+                                            Puppet, Vue.js</span></em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="css-k008qs">
+                <p class="chakra-text css-1yxrjky">2015</p>
+                <div class="css-m190yg">
+                    <div class="css-5bjx0a"></div>
+                    <div class="css-1xfr2mj">
+                        <div align="center" class="css-1qo4u0g"><img
+                                class="chakra-image__placeholder css-1f5ave3" /></div>
+                        <div class="css-qs4ifh">
+                            <p class="chakra-text css-1u8zspk">Part-Time Developer</p>
+                            <p class="chakra-text css-1fb0br2">Keshav Memorial Institute of Technology</p>
+                            <div class="css-0">
+                                <p class="chakra-text css-aean9g"><span
+                                        class="chakra-text css-1e9h9qn">Developed apps for the college’s
+                                        operations like Student Feedback and Gate-Pass System</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          -->
+                <!--
+            <div class="css-k008qs">
+                <style data-emotion="css n67hkv">
+                    .css-n67hkv {
+                        color: #A0AEC0;
+                        width: 50px;
+                        margin-top: 0.5rem;
+                        padding-bottom: 1rem;
+                        border-bottom-right-radius: 0.5rem;
+                    }
+                </style>
+                <p class="chakra-text css-n67hkv">2014</p>
+                <style data-emotion="css uoy4lb">
+                    .css-uoy4lb {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        border-left-color: #EDF2F7;
+                        border-left-width: 2px;
+                        width: 100%;
+                        padding-bottom: 1rem;
+                        border-bottom-right-radius: 0.5rem;
+                    }
+                </style>
+                <div class="css-uoy4lb">
+                    <div class="css-5bjx0a"></div>
+                    <div class="css-1xfr2mj">
+                        <div align="center" class="css-1qo4u0g"><img
+                                class="chakra-image__placeholder css-1f5ave3" /></div>
+                        <div class="css-qs4ifh">
+                            <p class="chakra-text css-1u8zspk">Bachelor&#x27;s in Computer Science and
+                                Engineering</p>
+                            <p class="chakra-text css-1fb0br2">Keshav Memorial Institute of Technology</p>
+                            <div class="css-0">
+                                <p class="chakra-text css-aean9g"><span class="chakra-text css-1e9h9qn">My first
+                                        adventures with programming</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              -->
               </div>
             </div>
 
@@ -419,58 +507,7 @@
 
 
       </div>
-    -->
 
-
-    <div class="col-md-8 col-12" >
-    <section class="custom-5 ">
-      <div class="container py-4">
-        <div class="main-timeline-5">
-          <div class="timeline-5 right-5">
-          
-              <div class="card-body p-4">
-                <p>University at Buffalo, The State University of New York</p>
-                <span class="small text-muted"><i class="fas fa-clock me-1"></i> 2022 </span>
-                <p class="mt-2 mb-0">Coursework: Intro to Machine Learning (ML), Distributed Systems, Algorithms, Blockchain
-                  App Development.</p>
-              </div>
-           
-          </div>
-          <div class="timeline-5 right-5">
-            
-              <div class="card-body p-4">
-                
-                <p>Sony India Software Centre, Bengaluru</p>
-                <p>Senior Software Engineer</p>
-                <span class="small text-muted"><i class="fas fa-clock me-1"></i> 2019 - 2022</span>
-                
-                <p class="mb-0">DIGI-BOT- a chatbot application used in Sony support sites.
-                </p>
-              </div>
-          
-          </div>
-          <!--
-          <div class="timeline-5 right-5">
-            
-              <div class="card-body p-4">
-                <p>Bachelor's in Computer Science and Engineering</p>
-                <p>N.M.A.M Institute of Technology, India</p>
-                <span class="small text-muted"><i class="fas fa-clock me-1"></i> May 2020</span>
-                <p class="mt-2 mb-0">Explored on various technology like IOT, Android App Development, Blockchain, Machine
-                  Learning</p>
-              </div>
-           
-          </div>
-        -->
-
-        </div>
-      </div>
-    </section>
-  </div>
-
-  
-
-</div>
       <div class="row">
         <div class="col">
 
@@ -482,13 +519,14 @@
       </div>
 
 
-     
+
 
 
 
     </div>
   
   </section>
+
 
 
 
@@ -508,7 +546,7 @@
 
 
 
- 
+
 
 
 
@@ -758,12 +796,6 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
       </script>
-
-
-
-
-
-
 
 </body>
 

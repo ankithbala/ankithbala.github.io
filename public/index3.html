@@ -24,9 +24,6 @@
     -->
   <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-  <style media="screen">
-    
-  </style>
 
 
 
@@ -48,9 +45,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
-  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="static/css/style.css?v=3">
 
 </head>
+
 
 <body>
 
@@ -428,23 +426,23 @@
         <div class="main-timeline-5">
           <div class="timeline-5 right-5">
           
-              <div class="card-body p-4">
-                <p>University at Buffalo, The State University of New York</p>
+              <div class="card-body">
+                <p class="name">University at Buffalo, The State University of New York</p>
                 <span class="small text-muted"><i class="fas fa-clock me-1"></i> 2022 </span>
-                <p class="mt-2 mb-0">Coursework: Intro to Machine Learning (ML), Distributed Systems, Algorithms, Blockchain
+                <p class="name">Coursework: Intro to Machine Learning (ML), Distributed Systems, Algorithms, Blockchain
                   App Development.</p>
               </div>
            
           </div>
           <div class="timeline-5 right-5">
             
-              <div class="card-body p-4">
+              <div class="card-body">
                 
-                <p>Sony India Software Centre, Bengaluru</p>
-                <p>Senior Software Engineer</p>
+                <p class="name">Sony India Software Centre, Bengaluru</p>
+                <p class="name">Senior Software Engineer</p>
                 <span class="small text-muted"><i class="fas fa-clock me-1"></i> 2019 - 2022</span>
                 
-                <p class="mb-0">DIGI-BOT- a chatbot application used in Sony support sites.
+                <p class="name">DIGI-BOT- a chatbot application used in Sony support sites.
                 </p>
               </div>
           
@@ -694,7 +692,7 @@
       </div>
 
 
-      <p id="load">Firebase SDK Loading&hellip;</p>
+     
 
       <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -727,10 +725,10 @@
               'remoteConfig',
               'performance',
             ].filter(feature => typeof app[feature] === 'function');
-            loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+            //loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
           } catch (e) {
             console.error(e);
-            loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+            //loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
           }
         });
       </script>
