@@ -1,0 +1,222 @@
+:root {
+  --keyword-color: #CC7832;
+  --datatype-color: #9A76AA;
+  --declaration-color: #FFC66D;
+  --comment-color: #808080;
+  --background-color: #2b2b2b;
+  --text-color: #a9b7c6;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  font-display:fallback;
+}
+
+.darcula {
+  font-family: monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.jumbotron {
+  height: 100vh;
+}
+
+.keyword {
+  color: var(--keyword-color);
+}
+
+.datatype {
+  color: var(--datatype-color);
+}
+
+.declaration {
+  color: var(--declaration-color);
+}
+
+.comment {
+  color: var(--comment-color);
+  font-style: italic;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link{
+	margin:.2em;
+}
+.darknav {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+#welcome-section {
+  display: flex;
+  align-items: center;
+}
+
+.typewriter {
+  font-family: monospace;
+margin : 0 0 0 6px;
+}
+
+.typewriter p {
+  display: inline-block;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #B889E2;
+  }
+}
+
+.card {
+  width: 20em;
+  margin: 1em 1em 1em 1em;
+}
+
+.card p {
+  font-size: 14px;
+}
+/* Style all font awesome icons */
+
+.fab {
+  padding: .5em;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.fab:focus {
+  opacity: 0.7;
+  color: black;
+}
+
+.fa-free-code-camp {
+  background: #006400;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 2em;
+  }
+  .typewriter p {
+    font-size: 1em;
+  }
+  .card {
+    width: auto;
+    margin: 1em 1em 1em 1em;
+  }
+
+}
+
+img {
+  height: 180px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .comment {
+    font-size: 4px;
+  
+  }
+
+  .main {
+    font-size: 20px;
+  }
+
+}
+
+.comment {
+  font-size: 3px;
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .comment {
+    font-size: 22px;
+    color: white;
+  }
+
+  .main {
+    font-size: 40px;
+  }
+
+  .typewriter {
+    font-family: monospace;
+  margin : 0 0 0 15px;
+  }
+
+  .typewriter p {
+    display: inline-block;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+} 
+
+
