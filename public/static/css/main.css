@@ -3501,7 +3501,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .portfolio-section {
-    max-width: 1400px
+    max-width: 2000px
 }
 
 .portfolio-timeline .project-link {
@@ -3560,6 +3560,11 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .portfolio-timeline .project-image img {
     max-width: 100%;
     max-height: 568px
+}
+
+.portfolio-timeline .project-image2 img {
+    max-width: 100%;
+
 }
 
 .portfolio-timeline .project-description:not(:first-child) {

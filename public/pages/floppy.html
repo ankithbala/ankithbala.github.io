@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Floppy - Ankith Bala</title>
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../static/css/main.css">
   <script type="text/javascript" src="../static/js/main.js"></script>
   <meta name="description">
@@ -16,71 +17,114 @@
   <meta property="og:description">
   <link rel="stylesheet" href="../static/css/style.css?v=3">
   <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .project-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .project-header h2 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .project-header h3 {
+      font-size: 1.8rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
     .project-details {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin: 4rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
-    .project-image {
-      flex: 1;
-      max-width: 50%;
-      margin-right: 3rem;
-    }
+
     .project-image img {
       width: 100%;
       height: auto;
       border-radius: 1rem;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
+
     .project-info {
-      flex: 1;
-      max-width: 50%;
-      background-color: #f8f8f8;
-      padding: 2rem;
-      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
     }
-    .project-info h2 {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-      color: #333;
-    }
+
     .project-info h3 {
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
       color: #555;
     }
+
     .project-description {
       font-size: 1.1rem;
       line-height: 1.6;
       margin-bottom: 1.5rem;
       color: #666;
     }
+
+    .project-technologies {
+      margin-top: 2rem;
+    }
+
     .project-technologies h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
       color: #333;
     }
+
     .tech-tags {
       display: flex;
       flex-wrap: wrap;
       list-style-type: none;
       padding: 0;
     }
+
     .tech-tags li {
       background-color: #e0e0e0;
       border-radius: 0.5rem;
       padding: 0.5rem 1rem;
       margin-right: 1rem;
       margin-bottom: 1rem;
+      transition: background-color 0.3s ease;
     }
+
     .tech-tags li a {
       color: #333;
       text-decoration: none;
     }
+
+    .tech-tags li:hover {
+      background-color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      .project-details {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
+
 <body class="parent-portfolio">
   <aside class="site-sidebar">
     <!-- Sidebar content -->
@@ -88,39 +132,42 @@
   <div class="site-main">
     <div class="site-main-inner">
       <div class="main-section portfolio-section">
-        <div class="project-details">
-          <div class="project-image">
-            <img src="../static/images/Secure5.png" alt="Floppy">
-          </div>
-          <div class="project-info">
+        <div class="container">
+          <div class="project-header">
             <h2>Floppy</h2>
-            <h3>Federated Learning on a Peer to Peer system</h3>
-            <div class="project-description">
-              <h3>Objective and Innovation</h3>
-              <p>Our goal was to decentralize AI training across multiple devices, eliminating the need for data aggregation at a central point. To achieve this, we developed Floppy, an algorithm that leverages asynchronous Federated Learning and integrates it with Secure Multi-Party Computation (SMPC), thus preserving data privacy and enabling learning from decentralized data sources.</p>
+            <h3>Federated Learning on a Peer to Peer System</h3>
+          </div>
+          <div class="project-details">
+            <div class="project-image">
+              <img src="../static/images/Secure5.png" alt="Floppy">
             </div>
-            <div class="project-description">
-              <h3>Protecting Data in Distributed Deep Neural Networks</h3>
-              <p>In today's privacy-conscious world, safeguarding data shared with third parties is crucial. When sensitive information enters distributed Deep Neural Networks, there is a genuine risk of privacy violations.</p>
-            </div>
-            <div class="project-description">
-              <h3>Novel Approach - Floppy</h3>
-              <p>Introducing Floppy, an innovative algorithm that implements asynchronous Federated Learning and Secure Multi-Party Computation (SMPC) to ensure privacy during collaborative training.</p>
-            </div>
-            <div class="project-description">
-              <h3>Resilient and Efficient</h3>
-              <p>Floppy's asynchronous nature makes it resilient against slower nodes, ensuring a smooth training process while preserving data privacy.</p>
-            </div>
-            <div class="project-description">
-              <h3>Real-World Evaluation</h3>
-              <p>We evaluate Floppy, along with other techniques, using iid and non-iid image datasets to analyze their impact on computer vision tasks, demonstrating its effectiveness in maintaining data privacy.</p>
-            </div>
-            <div class="project-technologies">
-              <h3>Technologies</h3>
-              <ul class="tech-tags">
-                <li><a href='' rel='nofollow' target='_blank'>Python</a></li>
-                <li><a href='' rel='nofollow' target='_blank'>Pytorch</a></li>
-              </ul>
+            <div class="project-info">
+              <div class="project-description">
+                <p>Developed Floppy, an innovative algorithm that decentralizes AI training across multiple devices, leveraging asynchronous Federated Learning and Secure Multi-Party Computation (SMPC) to preserve data privacy.</p>
+              </div>
+              <div class="project-description">
+                <h3>Protecting Data in Distributed Deep Neural Networks</h3>
+                <p>Ensured data privacy in a distributed setting, addressing the risks of privacy violations when sensitive information enters Deep Neural Networks.</p>
+              </div>
+              <div class="project-description">
+                <h3>Novel Approach - Floppy</h3>
+                <p>Implemented an asynchronous Federated Learning model with SMPC, ensuring privacy during collaborative training without the need for data aggregation at a central point.</p>
+              </div>
+              <div class="project-description">
+                <h3>Resilient and Efficient</h3>
+                <p>Floppy's asynchronous nature makes it resilient against slower nodes, ensuring a smooth training process while preserving data privacy.</p>
+              </div>
+              <div class="project-description">
+                <h3>Real-World Evaluation</h3>
+                <p>Evaluated Floppy using iid and non-iid image datasets, demonstrating its effectiveness in maintaining data privacy while performing computer vision tasks.</p>
+              </div>
+              <div class="project-technologies">
+                <h3>Technologies</h3>
+                <ul class="tech-tags">
+                  <li><a href='' rel='nofollow' target='_blank'>Python</a></li>
+                  <li><a href='' rel='nofollow' target='_blank'>Pytorch</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -128,4 +175,5 @@
     </div>
   </div>
 </body>
+
 </html>
